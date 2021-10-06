@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CFB6999226FCA19700D5FD11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6999126FCA19700D5FD11 /* AppDelegate.swift */; };
 		CFB6999426FCA19700D5FD11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6999326FCA19700D5FD11 /* SceneDelegate.swift */; };
-		CFB6999626FCA19700D5FD11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6999526FCA19700D5FD11 /* ViewController.swift */; };
+		CFB6999626FCA19700D5FD11 /* USViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB6999526FCA19700D5FD11 /* USViewController.swift */; };
 		CFB6999926FCA19700D5FD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB6999726FCA19700D5FD11 /* Main.storyboard */; };
 		CFB6999B26FCA19900D5FD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB6999A26FCA19900D5FD11 /* Assets.xcassets */; };
 		CFB6999E26FCA19900D5FD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB6999C26FCA19900D5FD11 /* LaunchScreen.storyboard */; };
+		CFB699A626FCE99800D5FD11 /* WCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB699A526FCE99800D5FD11 /* WCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CFB6998E26FCA19700D5FD11 /* Pwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB6999126FCA19700D5FD11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFB6999326FCA19700D5FD11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFB6999526FCA19700D5FD11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFB6999526FCA19700D5FD11 /* USViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USViewController.swift; sourceTree = "<group>"; };
 		CFB6999826FCA19700D5FD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFB6999A26FCA19900D5FD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB6999D26FCA19900D5FD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB6999F26FCA19900D5FD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB699A526FCE99800D5FD11 /* WCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CFB6999126FCA19700D5FD11 /* AppDelegate.swift */,
 				CFB6999326FCA19700D5FD11 /* SceneDelegate.swift */,
-				CFB6999526FCA19700D5FD11 /* ViewController.swift */,
+				CFB6999526FCA19700D5FD11 /* USViewController.swift */,
+				CFB699A526FCE99800D5FD11 /* WCViewController.swift */,
 				CFB6999726FCA19700D5FD11 /* Main.storyboard */,
 				CFB6999A26FCA19900D5FD11 /* Assets.xcassets */,
 				CFB6999C26FCA19900D5FD11 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB6999626FCA19700D5FD11 /* ViewController.swift in Sources */,
+				CFB6999626FCA19700D5FD11 /* USViewController.swift in Sources */,
 				CFB6999226FCA19700D5FD11 /* AppDelegate.swift in Sources */,
+				CFB699A626FCE99800D5FD11 /* WCViewController.swift in Sources */,
 				CFB6999426FCA19700D5FD11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
